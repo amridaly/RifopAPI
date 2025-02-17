@@ -1,0 +1,19 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RifopImportForms.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Cn" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;DATA SOURCE=172.16.24.222:1521/NIFNINU;USER ID=NIFNINU; PASSWORD=Ninuritop&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DATA SOURCE=172.16.24.222:1521/NIFNINU;USER ID=NIFNINU; PASSWORD=Ninuritop</Value>
+    </Setting>
+    <Setting Name="ApiBaseUrl" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.150.3:8821/api/v1/get/</Value>
+    </Setting>
+    <Setting Name="ApiKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">m4icouUG/5nxsNeVD5wQtsAQYj8lm0Xij4fjaDzmM7sUFxR+UfIy1V3cA1zzCV1bYLbMKogxTbyNmeRBA9s4wQ==</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
