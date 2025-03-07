@@ -15,7 +15,7 @@ namespace RifopLibrary
         public ONICitizenPhoto CurrentPhoto { get; set; }
 
         [JsonPropertyName("score")]
-        public int Score { get; set; }
+        public double Score { get; set; }
     }
 
     public class ONICitizenIdentity

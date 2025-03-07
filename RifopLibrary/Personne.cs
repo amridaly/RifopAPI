@@ -31,6 +31,7 @@ namespace RifopLibrary
 
             OldNIN=citoyen.OldNIN;
         }
+
         public Personne(NifNinu nifNinu)
         {
 
@@ -114,5 +115,16 @@ namespace RifopLibrary
         public string? PhoneNumber { get; set; }
 
         public string? OldNIN { get; set; }
+    }
+
+
+    public class Photo
+    {
+        public string Ninu { get; set; }
+
+        public string? Data { get; set; }
+
+        public double Score { get; set; }
+
     }
 }

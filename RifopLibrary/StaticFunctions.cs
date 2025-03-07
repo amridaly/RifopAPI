@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace RifopLibrary
 {
@@ -13,5 +14,8 @@ namespace RifopLibrary
 
         public static bool IsValidNif(this string nif) =>
                 !string.IsNullOrWhiteSpace(nif) && nif.Length == 13;
+
+
+        
     }
 }
